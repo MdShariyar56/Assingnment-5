@@ -12,7 +12,18 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
+ let copyCount = 0;
+const copyNavbarCount = document.getElementById("copy-availabale");
+const copyButtons = document.querySelectorAll("button[onclick^='copyNumber']");
 
+for (let i = 0; i < copyButtons.length; i++) {
+  let btn = copyButtons[i];
+
+  btn.addEventListener("click", function() {
+    copyCount++;
+    copyNavbarCount.innerText = copyCount;
+  });
+}
 
 
  let coins = 100; 
