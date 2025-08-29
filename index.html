@@ -28,7 +28,7 @@
     <span id="coin-count">100</span>
     <img src="./assets/coin.png" class="w-[24px] h-[24px]" alt="">
    
-    <button class="btn bg-green-600 text-white px-3 py-1 text-sm rounded-3xl"> <span>0</span>Copy</button>
+    <button class="btn bg-green-600 text-white px-3 py-1 text-sm rounded-3xl"> <span id="copy-availabale">0</span>Copy</button>
   </div>
 </nav>
  
@@ -43,8 +43,6 @@
 
 
  <section class="flex flex-col lg:flex-row gap-4 p-4">
-
-  <!-- Cards Section -->
   <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 flex-1">
    
     <div class="bg-white shadow-md rounded-lg p-2 h-[230px] flex flex-col justify-between hover:shadow-lg transition-shadow duration-200">
@@ -63,9 +61,9 @@
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
         <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
-          <i class="fa-solid fa-copy"></i> Copy
+          <i  class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="National Emergency Service Number" data-number="999">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -76,7 +74,7 @@
           <img src="./assets/police.png" class="w-7 h-7 mt-3 mb-2 bg-slate-400 rounded-md" alt="">
           <h2 class="font-bold text-sm mt-2">Police Service Number</h2>
           <p class="text-gray-500 text-xs mb-2">Police Service</p>
-          <p class="text-xl font-bold mt-2">999</p>
+          <p class="text-xl font-bold mt-2">111</p>
           <button class="w-auto h-auto p-1 rounded-3xl flex justify-center items-center bg-gray-200 mt-1">Police</button>
         </div>
         <div>
@@ -85,10 +83,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
-          <i class="fa-solid fa-copy"></i> Copy
+        <button onclick="copyNumber('111')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+          <i  class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Police Service Number" data-number="111">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -99,7 +97,7 @@
           <img src="./assets/fire-service.png" class="w-7 h-7 mt-3 mb-2 bg-red-200 rounded-md" alt="">
           <h2 class="font-bold text-sm mt-2">Fire Service Number</h2>
           <p class="text-gray-500 text-xs mb-2">Fire Service</p>
-          <p class="text-xl font-bold mt-2">111</p>
+          <p class="text-xl font-bold mt-2">222</p>
           <button class="w-auto h-auto rounded-3xl flex justify-center items-center bg-gray-200 mt-1 p-1">Fire</button>
         </div>
         <div>
@@ -108,10 +106,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
-          <i class="fa-solid fa-copy"></i> Copy
+        <button onclick="copyNumber('222')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+          <i  class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="222">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -131,10 +129,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
-          <i class="fa-solid fa-copy"></i> Copy
+        <button onclick="copyNumber('1994-85999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+          <i  class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Ambulance Service Number" data-number="1994-85999">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -154,10 +152,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+        <button onclick="copyNumber('0689')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
           <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Women & Child Helpline Number" data-number="0689">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -166,7 +164,7 @@
       <div class="flex justify-between items-start gap-2">
         <div>
           <img src="./assets/brac.png" class="w-7 h-7 mt-3 mb-2 bg-slate-200 rounded-md" alt="">
-          <h2 class="font-bold text-sm mt-2">Bac Service Number</h2>
+          <h2 class="font-bold text-sm mt-2">Brac Service Number</h2>
           <p class="text-gray-500 text-xs mb-2">Brac Service</p>
           <p class="text-xl font-bold mt-2">5694</p>
           <button class="w-auto h-auto rounded-3xl flex justify-center items-center bg-gray-200 mt-1 p-1">NGO</button>
@@ -177,10 +175,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
-          <i class="fa-solid fa-copy"></i> Copy
+        <button onclick="copyNumber('5694')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+          <i  class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Brac Service Number" data-number="5694">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -192,7 +190,7 @@
           <img src="./assets/Bangladesh-Railway.png" class="w-7 h-7 mt-3 mb-2 bg-green-200 rounded-md" alt="">
           <h2 class="font-bold text-sm mt-2">Railway Service Number</h2>
           <p class="text-gray-500 text-xs mb-2">Bangladesh Railway</p>
-          <p class="text-xl font-bold mt-2">222</p>
+          <p class="text-xl font-bold mt-2">888</p>
           <button class="w-auto h-auto rounded-3xl flex justify-center items-center bg-gray-400 mt-1 p-1">Railway</button>
         </div>
         <div>
@@ -201,10 +199,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
-          <i class="fa-solid fa-copy"></i> Copy
+        <button onclick="copyNumber('888')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+          <i  class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Railway Service Number" data-number="888">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -224,10 +222,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
-          <i class="fa-solid fa-copy"></i> Copy
+        <button onclick="copyNumber('6698')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+          <i  class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Electricity Service Number" data-number="6698">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -247,10 +245,10 @@
       </div>
 
       <div class="flex gap-1 mt-1 w-full h-[35px]">
-        <button onclick="copyNumber('999')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
+        <button onclick="copyNumber('3325')" class="flex-1 border rounded px-3 py-1 text-xs hover:bg-gray-100">
           <i class="fa-solid fa-copy"></i> Copy
         </button>
-        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Fire Service Number" data-number="999">
+        <button class="call-btn flex-1 bg-green-600 text-white rounded px-4 py-1 text-xs" data-service="Expratriate Service Number" data-number="3325">
           <i class="fa-solid fa-phone"></i> Call
         </button>
       </div>
@@ -259,19 +257,24 @@
     
   </div>
 
- 
-  <div class="flex justify-between flex-row gap-3 w-full lg:w-[calc(33.333%-1rem)] bg-gray-50 p-3 rounded-lg shadow-md mt-4 lg:mt-0">
-     <div>
-        <p><span><i class="fa-regular fa-clock"></i></span> Call History</p>
-     </div>
-     <div>
-        <button class="btn bg-green-600 rounded-3xl">Success</button>
-     </div>
+<div class="w-full lg:w-[calc(33.333%-1rem)] bg-gray-50 p-4 rounded-lg shadow-md flex flex-col">
+  
+  <div class="flex justify-between items-center mb-4">
+     <p class="font-semibold text-gray-700 flex items-center gap-2 mb-3">
+    <i class="fa-regular fa-clock"></i> Call History
+  </p>
+     <button id="clear-history" class="bg-green-600 hover:bg-green-700 text-white text-sm px-4 py-2 rounded-2xl shadow">
+      Clear History
+    </button>
   </div>
+  <div class="call-history flex flex-col gap-2 text-sm text-black-600 font-medium">
+   
+  </div>
+</div>
 
 </section>
 
-
+ 
 <script src="./script.js"></script>
 
 </body>
